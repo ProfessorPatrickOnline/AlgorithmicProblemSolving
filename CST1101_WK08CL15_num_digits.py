@@ -13,13 +13,13 @@ Created on Tue 23-Mar-2021.
 
 def num_digits(n=710):
     count = 0
-    # print("count", "\t", "n")
-    # print("-----", "\t", "-")
+    print("n", "\t", "count")
+    print("-", "\t", "-----")
     # print(n, "\t", count)
     while n:
         count += 1
         n = int(n / 10)
-        # print(n, "\t\t", count)
+        # print(n, "\t", count)
     return count
 
 # Trace the values of n and count for each state of execution
